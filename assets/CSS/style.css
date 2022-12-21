@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Nunito", sans;
+}
+
+.row {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+/*header*/
+.navbar img {
+  height: 30px;
+}
+
+header {
+  display: fixed;
+}
+
+.active {
+  color: #000 !important;
+}
+
+.navbar i {
+  font-size: 10px;
+}
+
+.navbar-nav li a {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 16px;
+  background-color: transparent !important;
+  padding: 15px 0;
+  margin: 0 7px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.navbar-nav li a:hover {
+  color: black !important;
+}
+
+.pad100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+/*<!-------------------------------START HOME--------------------------------->*/
+.home-bg {
+  background-image: url(../assets/images/home-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.btn-outline-custom {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  font-size: 15px;
+}
+
+.home-half {
+  padding: 180px 0px !important;
+}
+
+.home-half {
+  padding: 180px 0px !important;
+}
+
+.home-bg {
+  background-image: url(../images/home-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  background-color: #fff;
+}
+
+/*-----------------------------------sarvice-------------------------------------------*/
+::-moz-selection {
+  background: rgba(166, 175, 189, 0.3);
+}
+::selection {
+  background: rgba(166, 175, 189, 0.3);
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  background-color: #fff;
+}
+
+.bg-dark {
+  background-color: #000;
+}
+
+.text-muted {
+  color: #777;
+}
+
+.text-custom {
+  color: #ff546c;
+}
+
+.text-danger {
+  color: #E64236;
+}
+
+.text-green {
+  color: #33D287;
+}
+
+.text-blue {
+  color: #4285F3;
+}
+
+.text-yellow {
+  color: #FCBB03;
+}
+
+.text-purple {
+  color: #5859FE;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.z-index {
+  z-index: 2;
+}
+
+.bg-custom {
+  background-color: #ff546c;
+}
+
+.bg-dark {
+  background-color: #1d1f25 !important;
+}
+
+.section-main-title {
+  max-width: 570px;
+}
+
+.main-title-border::after,
+.main-title-border::before {
+  display: inline-block;
+  margin-top: -7px;
+  vertical-align: middle;
+  content: "";
+  background-color: #d0d0d0;
+  width: 30px;
+  height: 1px;
+}
+
+.main-title-border i {
+  font-size: 20px;
+}
+
+.section-main-title p {
+  max-width: 600px;
+}
+
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  padding: 12px 26px;
+}
+
+.btn-rounded {
+  border-radius: 30px;
+}
+
+.btn-custom {
+  background-color: #ff546c;
+  border: 2px solid #ff546c;
+  color: #fff;
+  transition: all 0.5s;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.btn-custom:hover {
+  background-color: #e6475e;
+  border-color: #e6475e;
+  color: #f3f3f3;
+}
+
+.features-icon i {
+  font-size: 44px;
+  color: #ff546c;
+}
+
+/*--------------------services--------------------*/
+.services-i {
+  font-size: 42px;
+}
+
+.carousel-item i {
+  font-size: 50px;
+  color: #E64236;
+}
+
+/*--------------------------------------------price_box--------------------------------------------*/
+.price-border {
+  padding: 40px;
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.price-border.active {
+  position: relative;
+  overflow: hidden;
+  border-color: #ff546c;
+}
+
+.lable {
+  background: #ff546c;
+  padding: 8px 0;
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  top: 22px;
+  right: -60px;
+  transform: rotate(45deg);
+}
+
+.lable h6 {
+  color: #fff;
+  font-size: 14px;
+}
+
+.h1 sup, h1 sub {
+  font-size: 26px;
+}
+
+.box11 h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 49px;
+}
+
+.box11 h1 sup {
+  position: relative;
+  top: -15px;
+}
+
+.contant4 {
+  padding: 40px 0px;
+}
+
+.contant4 p {
+  font-size: 15px;
+  color: #777;
+}
+
+/*------------------------------------faq-----------------------------------------*/
+.faq-boxes {
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.faq-boxes:hover h5 {
+  color: #ff546c;
+}
+
+.faq-boxes h5 {
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+/*-----------------------------------------contact-----------------------------------------*/
+.form-control {
+  box-shadow: none !important;
+  height: 50px;
+  border: none;
+  box-shadow: 0px 0px 20px 3px;
+  background: #f8f9fa;
+}
+
+/*----------------------------------------footer--------------------------------------------------*/
+.social-icon {
+  border: 2px solid #868e96;
+  border-radius: 50%;
+  transition: all 0.5s;
+  width: 42px;
+  height: 42px;
+  display: block;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.social-icon:hover {
+  border-color: #ff546c;
+  color: #ff546c !important;
+}
+
+.f-menu li a {
+  font-weight: 500;
+}
+
+.f-menu li a:hover {
+  color: #000 !important;
+  transition: all 0.5s;
+}
+
+.f-menu li::after {
+  content: "|";
+  margin: 0 20px;
+  color: #757575;
+}
+
+.flogo {
+  height: 34px;
+}
+
+.line4 {
+  height: 2px;
+  background: #e9e9e9;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
